@@ -16,7 +16,7 @@ Discord displays user avatars in very small resolutions, which pollutes them wit
 
 ### How do I install it in BetterDiscord?
 
-- Drop `HighResProfileImages.plugin.js` into your `plugins` folder
+Drop `HighResProfileImages.plugin.js` into your `plugins` folder
 
 ### Is the plugin broken?
 
