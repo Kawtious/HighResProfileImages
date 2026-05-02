@@ -1,6 +1,6 @@
 /**
  * @name High-Res Profile Images
- * @version 1.0.1
+ * @version 1.0.2
  * @author Z'ark Ashveil
  * @authorId 262113677900120065
  * @authorLink https://github.com/Kawtious
@@ -47,17 +47,13 @@ module.exports = class HighResProfileImages {
     }
 
     getSettingsPanel() {
-        const loadWarning = "Warning: The higher the value, the more resources will be used";
-
-        const sizeOptions = this.VALID_SIZES.map(size => { return { label: size, value: size } })
-
         const resSize = {
             id: "resSize",
             name: "Resolution Size",
-            note: loadWarning,
+            note: "Warning: The higher the value, the more resources will be used",
             type: "dropdown",
             value: this.settings.resSize,
-            options: sizeOptions
+            options: this.VALID_SIZES.map(size => { return { label: size, value: size } })
         };
 
         return BdApi.UI.buildSettingsPanel({
