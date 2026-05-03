@@ -4,7 +4,7 @@
 
 <sub>Okay, the comparison might be exaggerated...</sub>
 
-### What is this?
+## What is this?
 
 Discord displays user avatars in very small resolutions, which pollutes them with artifacts. This plugin simply makes Discord show a higher quality version of the avatar
 
@@ -14,11 +14,11 @@ Discord displays user avatars in very small resolutions, which pollutes them wit
 
 <sub>Is this too nitpicky? ... yes</sub>
 
-### How do I install it in BetterDiscord?
+## How do I install it in BetterDiscord?
 
 Drop `HighResProfileImages.plugin.js` into your `plugins` folder
 
-### Is the plugin broken?
+## Is the plugin broken?
 
 In case some avatars still look ugly, those avatars might be unsalvageable. If the original image of the avatar is too low-res (less than 256x256 pixels), there's not much this plugin can do to improve it
 
